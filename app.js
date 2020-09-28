@@ -37,6 +37,12 @@ app.action('button_click', async ({ body, ack, say }) => {
   await say(`<@${body.user.id}> clicked the button`);
 });
 
+// Listens to incoming messages that contain "goodbye"
+app.message('goodbye', async ({ message, say }) => {
+  // say() sends a message to the channel where the event was triggered
+  await say(`See ya later, <@${message.user}> :wave:`);
+});
+
 (async () => {
   // Start your app
   await app.start(process.env.PORT || 3000);
