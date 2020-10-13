@@ -2,6 +2,10 @@
 
 > Slack app example from 📚 [Deploying to Heroku with Bolt for JavaScript][1]
 
+## Repository has moved
+
+🚚 Find the latest version at [slackapi/bolt-js/examples](https://github.com/slackapi/bolt-js/tree/main/examples/getting-started-with-heroku).
+
 ## Overview
 
 This is a Slack app built with the [Bolt for JavaScript framework][2] that showcases
